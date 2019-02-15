@@ -1,10 +1,12 @@
-<h1>Chica Cocktails:</h1>
-
-<% @cocktails.each do |cocktail| %>
-  <%= link_to cocktail.name.capitalize, cocktail_path(cocktail) %>
-<br>
-<br>
-<% end %>
-<i class="fas fa-plus"><%= link_to "Add a new cocktail", new_cocktail_path %></i>
-
-
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://dribbble.com/shots/5998681-Old-Fashioned/attachments);">
+  <div class="container">
+    <h1>Chica <strong>Cocktails</strong></h1>
+    <p><% @cocktails.each do |cocktail| %>
+        <%= link_to cocktail.name.capitalize, cocktail_path(cocktail) %>
+      <br>
+      <br>
+      <% end %>
+    </p>
+    <i class="fas fa-plus"><%= link_to "Add a new cocktail", new_cocktail_path %></i>
+  </div>
+</div>
