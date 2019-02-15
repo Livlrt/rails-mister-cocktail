@@ -2,9 +2,9 @@
 
 <% @cocktails.each do |cocktail| %>
   <%= link_to cocktail.name.capitalize, cocktail_path(cocktail) %>
+<br>
+<br>
 <% end %>
-<br>
-<br>
 <i class="fas fa-plus"><%= link_to "Add a new cocktail", new_cocktail_path %></i>
 
 
