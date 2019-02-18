@@ -1,8 +1,12 @@
-<div class="form">
-  <%= simple_form_for @cocktail do |f| %>
-    <%= f.input :name %>
-    <%= f.submit class: 'btn btn-primary' %>
-  <% end %>
-</div>
-
-
+<body>
+  <div class="wrapper" style="background-image: url(https://res.cloudinary.com/dydwtoubz/image/upload/v1550327680/Chica%20Coktails/pexels-photo-842955.jpg)">
+    <div class="new-form">
+      <h2>Create your own cocktail</h2>
+      <%= simple_form_for @cocktail do |f| %>
+        <%= f.input :name, label: false, placeholder: "GinTo" %>
+        <%= f.file_field :picture %>
+        <%= f.submit class: 'btn btn-succes' %>
+      <% end %>
+    </div>
+  </div>
+</body>

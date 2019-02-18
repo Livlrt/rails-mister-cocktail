@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+}
+
+.new-form {
+  background-color: #e4d5d5;
+  opacity: .8;
+  height:500px;
+  width: 700px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px 5px #312b2b;
+}
+
+form, h2 {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 73px;
+}
+
+#cocktail_name {
+  border-radius: 4px;
+  width: 60%;
+  margin-left: 20%;
+  font-weight: lighter;
+}
+
+#cocktail_picture {
+  font-family: unset;
+  font-size: 16px;
+  color: #908c8c;
+  margin-left: 20%;
+}
+
+.input {
+  border-radius: 5px;
+}
+
+.btn {
+  text-decoration: none;
+  margin-top: 50px;
+}

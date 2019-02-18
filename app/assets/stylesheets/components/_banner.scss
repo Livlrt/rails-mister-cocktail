@@ -1,21 +1,52 @@
 .banner {
-  background-image: url('<%= image_path('old_fashioned_dribbble.jpg') %>');
-  background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner h1 {
+  font-family: 'ZCOOL XiaoWei', serif;
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  font-size: 70px;
   font-weight: bold;
 }
 
-.banner p {
+.banner a {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  text-decoration: none;
   font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  color: #bf0000;
+  opacity: .8;
 }
+
+.banner p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 120px;
+  right: 47%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.banner {
+  .fas{
+    color: #bf0000;
+    position: absolute;
+    bottom: 139px;
+    left: 628px;
+  }
+}
+
+.banner {
+  i {
+    font-size: 16px;
+  }
+}
+
